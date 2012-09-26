@@ -31,10 +31,13 @@ int main() {
 	cin >> num_books;
 
 	if (num_books < 0)
+
 		cout << "\n   "
-			 << "You cannot enter a negative number please rerun program"
+			 << "You cannot enter a negative number please rerun the program"
 			 << " and enter a valid number.\n";
-	else
+
+		else
+		{
 		switch (num_books)
 		{
 			case (0):
@@ -57,6 +60,6 @@ int main() {
 	cout << "\n   "
 		 << "This customer earned " << points
 		 << " points this month.\n";
-
+		}
 	return 0;
 }
